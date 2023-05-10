@@ -45,3 +45,17 @@ span{
     
     display: none;
 }
+
+.show{
+    font-size: 4vmin;
+    cursor: pointer;
+}
+.show_on{
+    display: block;
+
+}
+.show_off{
+    font-size: 4vmin;
+    cursor: pointer     ;
+    display:none;
+}
