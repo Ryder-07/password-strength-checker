@@ -28,14 +28,14 @@ p{
     padding: 2vmin;
 }
 input{
-    height: 10vmin;
+    height: 9vmin;
     width: 60vmin;
     border: none;
     outline: none;
     border-radius: 40px;
     font-size: 7vmin;
-    padding: 20px;
-    border-bottom:7px solid rgb(35,173,92);
+    padding: 3vmin;
+
 }
 span{
     font-weight: 700;
@@ -50,12 +50,30 @@ span{
     font-size: 4vmin;
     cursor: pointer;
 }
+.fa-eye-slash{
+    display: none;
+}
 .show_on{
     display: block;
 
 }
-.show_off{
-    font-size: 4vmin;
-    cursor: pointer     ;
-    display:none;
+
+.input{
+    height: 10vmin;
+    width: 70vmin;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2vmin;
+    background-color: rgb(255,255,255);
+    border-bottom:7px solid rgb(35,173,92);
+}
+.test{
+    font-size: larger;
+    color: aliceblue;
+    display: none;
 }

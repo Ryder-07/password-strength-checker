@@ -17,9 +17,11 @@
   <body>
     <div class="main">
       <p>ENTER YOUR PASSWORD</p>
-      <input type="password" id="pass" onkeyup="control() "  class="input">
+      <div class="input"><input type="password" id="pass" onkeyup="control() "  >
       <i class="fa-solid fa-eye show show_on" onclick="show_on()"></i>
-      <i class="fa-solid fa-eye-slash show_off" onclick="show_on()"></i>
+      <i class="fa-solid fa-eye-slash show show_off" onclick="show_on()"></i></div>
+      
+      <i class="test">hello</i>
       <p id="message">
         YOUR PASSWORD STRENGTH IS <span id="strength">STRONG</span>
       </p>
